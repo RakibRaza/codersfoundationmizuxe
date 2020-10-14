@@ -1,0 +1,81 @@
+/* Variables */
+:root {
+    --primary-color: #3292A6;
+}
+/* Default CSS */
+body {
+    position: relative;
+}
+.text-default {
+    color: var(--primary-color);
+}
+.bg-default {
+    background-color: var(--primary-color);
+}
+.btn-default {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.btn-default:hover {
+    background-color: #297889;
+    color: #fff;
+}
+.card-border {
+    border: 1px solid var(--primary-color);
+}
+
+
+/* Header
+-------------------------------------------- */
+.navbar {
+    border-bottom: 3px solid var(--primary-color);
+    background-color: rgba(255, 255, 255, .9);
+}
+.navbar .nav-item {
+    font-size: 1.4rem;
+    padding-left: 20px;
+}
+.navbar .nav-item .nav-link {
+    color: #252525;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: var(--primary-color);
+}
+.navbar .nav-item .nav-link:hover {
+    color: var(--primary-color);
+}
+
+/* Home section
+----------------------------------------------------- */
+#home-section {
+    background: url(../images/mountains.jpg) no-repeat fixed center;
+    background-size: cover;
+    margin-top: 95px;
+}
+#home-section .overlay {
+    background-color: rgba(50, 146, 156, .7);
+}
+
+/* Subscribe Section */
+#subscribe-section {
+    background-color: #252525;
+}
+
+/* Author Section */
+#author-section .card {
+    transition: all .2s ease;
+}
+
+#author-section .card:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+#author-section .card:hover i.fab {
+    color: #fff;
+}
+.card-body img {
+    margin-top: -50px;
+}
+i.fab {
+    font-size: 24px;
+}
